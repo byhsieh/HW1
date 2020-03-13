@@ -69,8 +69,8 @@ else:
 
 # Processing the data which station id is "C0G640"    
 if (len(C0G640_data) >= 2):   
-    for index in range(len(C0G640_data)):
-        C0G640_WDSD_value.append(C0G640_data[index]['WDSD'])
+    for index3 in range(len(C0G640_data)):
+        C0G640_WDSD_value.append(C0G640_data[index3]['WDSD'])
     C0G640_WDSD_max = max(C0G640_WDSD_value)
     C0G640_WDSD_min = min(C0G640_WDSD_value)
     C0G640_WDSD_range = float(C0G640_WDSD_max) - float(C0G640_WDSD_min)
@@ -80,8 +80,8 @@ else:
 
 # Processing the data which station id is "C0R190"       
 if (len(C0R190_data) >= 2):   
-    for index in range(len(C0R190_data)):
-        C0R190_WDSD_value.append(C0R190_data[index]['WDSD'])
+    for index4 in range(len(C0R190_data)):
+        C0R190_WDSD_value.append(C0R190_data[index4]['WDSD'])
     C0R190_WDSD_max = max(C0R190_WDSD_value)
     C0R190_WDSD_min = min(C0R190_WDSD_value)
     C0R190_WDSD_range = float(C0R190_WDSD_max) - float(C0R190_WDSD_min)
@@ -91,8 +91,8 @@ else:
 
 # Processing the data which station id is "C0X260"   
 if (len(C0X260_data) >= 2):   
-    for index in range(len(C0X260_data)):
-        C0X260_WDSD_value.append(C0X260_data[index]['WDSD'])
+    for index5 in range(len(C0X260_data)):
+        C0X260_WDSD_value.append(C0X260_data[index5]['WDSD'])
     C0X260_WDSD_max = max(C0X260_WDSD_value)
     C0X260_WDSD_min = min(C0X260_WDSD_value)
     C0X260_WDSD_range = float(C0X260_WDSD_max) - float(C0X260_WDSD_min)
